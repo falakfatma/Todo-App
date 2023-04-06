@@ -6,29 +6,65 @@
   <meta name="viewport" content="width=device-width">
   <title>SignUp</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
 </head>
 
 <body>
   <div class="main">
     <div class="container">
-      <h2>Sign up</h2>
-      <div class="signUp">
-        <form >
-          <i class="fa-solid fa-user" style="color: #8c9097;"></i>
-          <input type="text" placeholder="Your Name">
-          <i class="fa-solid fa-envelope" style="color: #8891a0;"></i>
-          <input type="text" placeholder="Your Email">
-          <i class="fa-solid fa-lock-keyhole" style="color: #808389;"></i>
-          <input type="password" placeholder="Password">
-          <i class="fa-regular fa-lock-keyhole" style="color: #818283;"></i>
-          <input type="password" placeholder="Repeat your password">
-          
+      <div class="signup-form">
+        <h1 id="heading">Sign up</h1>
+        <form>
+          <div class="formGroup">
+            <label for="">
+              <i class="fa-solid fa-user"></i>
+            </label>
+            <input type="text"  class="input" placeholder="Your Name">
+          </div>
+
+          <div class="formGroup">
+            <label for="">
+
+              <i class="fa-solid fa-envelope"></i>
+            </label>
+            <input type="text"  class="input" placeholder="Your Email">
+          </div>
+          <div class="formGroup">
+            <label for="">
+              <i class="fa-solid fa-lock"></i>
+            </label>
+
+            <input type="password"  class="input" placeholder="Password">
+
+          </div>
+          <div class="formGroup">
+            <label for="">
+
+              <i class="fa-solid fa-lock"></i>
+            </label>
+
+            <input type="password"  class="input" placeholder="Repeat your password">
+
+          </div>
+          <div class="formGroup">
+            <input type="checkbox">
+            <span class="terms">I agree all statements in Terms of service</span>
+
+          </div>
+
         </form>
-        <input type="checkbox">
-        <span>I agree all statements in Terms of service</span>
-      <button>Register</button>
+        <button>Register</button>
       </div>
-      <div class="secImg">
+      <div class="signup-img">
         <img src="https://colorlib.com/etc/regform/colorlib-regform-7/images/signup-image.jpg">
       </div>
     </div>
