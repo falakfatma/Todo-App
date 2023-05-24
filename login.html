@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>SignUp</title>
+  <title>SignIn</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,37 +22,15 @@
   <div class="main">
     <div class="container">
       <div class="signup-form">
-        <h1 id="heading">Sign up</h1>
+        <h1 id="heading">Sign In</h1>
         <form>
-          <div class="formGroup cards">
-           
-            <div class="card">
-            <input type="text" id="firstName" class="input" placeholder="Your First Name" required>
-            <span class="error" id="fNameError"></span>
-            </div>
-
-           <div class="card">
-            <input type="text" id="lastName" class="input" placeholder="Your Last Name" required>
-            <span class="error" id="lNameError"></span>
-           </div>
-          </div>
-          
-          <div class="formGroup">
-            <label for="namr">
-              <i class="fa-solid fa-user"></i>
-            </label>
-            <input type="text" id="userName" class="input"  placeholder="Your Name" required>
-            <span class="error" id="userError"></span>
-
-          </div>
-
           <div class="formGroup">
             <label for="">  
 
               <i class="fa-solid fa-envelope"></i>
             </label>
-            <input type="text" id="userMail" class="input" placeholder="Your Email" required>
-            <span class="error" id="mailError"></span>
+            <input type="name" id="userName" class="input" placeholder="Your Name" required>
+            <span class="error" id="userError"></span>
 
           </div>
           <div class="formGroup">
@@ -66,20 +44,8 @@
 
 
           </div>
-          <div class="formGroup">
-            <label for="">
-              <i class="fa-solid fa-lock"></i>
-            </label>
-
-            <input type="password" required id="repeatedPass" class="input" placeholder="Repeat Password" >
-            <span class="error passwordError" id="userRepeatedPasswordError"></span>
-          </div>
-          <div class="formGroup">
-            <input type="checkbox">
-            <span class="terms">I agree all statements in <span id="underline">Terms of service</span> </span>
-
-          </div>
-        <button type="submit" class="btn">Register</button>
+          
+        <button type="submit" class="btn">Sign In</button>
 
         </form>
       </div>
@@ -89,7 +55,21 @@
     </div>
 
   </div>
-  <script src="script.js"></script>
+
+
+<!-- kittey biodata -->
+<!-- Sign up
+hello
+kittey
+  helllo kitty
+k@gmail.com
+kitteykittey
+ Password Atleast Contain Eight Character
+kittykitty
+ I agree all statements in Terms of service
+Register
+ -->
+  <script src="login.js"></script>
 </body>
 
 </html>

@@ -21,7 +21,7 @@ html {
     background: #fff;
     border-radius: 2rem;
     margin: auto;
-  margin-top:22px ;
+  /*margin-top:22px ;*/
     justify-content: space-evenly;
 }
 .signup-form{
@@ -47,10 +47,11 @@ font-family: 'Poppins', sans-serif;
 .input{
   width: 100%;
   border: none;
-  margin-bottom: 22px;
+  margin-bottom: 5px;
   border-bottom: 1px solid #999;
   position: relative;
-  padding: 5px 25px;
+  padding: 5px 5px;
+  padding-left: 0px;
   font-family: poppins;
 }
 .input:focus-visible {
@@ -62,16 +63,23 @@ font-family: 'Poppins', sans-serif;
 label{
   position: absolute;
     z-index: 32;
-    left: 0;
+    left: -18px;
     /* display: inline-block; */
 /*     top: 50%; */
 }
 /* .icon{
   
 } */
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+.error{
+  background: #eba4a4;
+  color: red;}
 .formGroup{
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 #underline{
   text-decoration: underline;
